@@ -1,0 +1,200 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: green;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  background: url(./images/habit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  height: auto;
+  padding: 0px 20px;
+  width:100vw;
+  
+}
+
+.navbar h3{
+  font-size: 2rem;
+  font-weight: 700;
+  color:#fb813e;
+}
+
+
+
+.right-nav{
+  display: flex;
+  align-items: center;
+}
+.right-nav h5{
+  color: #DDDDDD;
+  margin-right: 10px;
+}
+.yellow{
+  background-color: #e1d14e;
+  color: white;
+}
+
+.addhabit-btn{
+  cursor: pointer;
+  color: white;
+  background-color: #e1d14e;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 50px;
+}
+
+
+.addhabit-btn:hover{
+  opacity: 0.7;
+}
+
+.modal-content{
+    background-image: linear-gradient(to right,rgb(199 233 10 / 82%) 0%,#f3f3ee 100%);
+}
+.modal-header{
+  border: none;
+}
+.modal-footer{
+  justify-content: center;
+  border: none;
+}
+
+.habits{
+  width: 100%;
+}
+
+/* habit under habits component */
+.habit{
+  margin-top: 20px;
+  width: 80%;
+  height: 100px;
+  background: #e1d14e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 10px; 
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.habit:hover{
+  background-color: #e1d14e;
+}
+.habit-list{
+  display: flex;
+  align-items: center;
+}
+.habit-list i{
+  margin-left:160px;
+}
+.habit-name{
+padding-left: 30px;
+}
+.habit-name h4{
+text-transform: capitalize;
+}
+.day-complete{
+  color: #2a8b1e;
+  font-size: 1.1rem;
+  
+}
+.habit-view{
+  display: flex;
+  align-items: center;
+}
+.log-btn{
+  text-decoration: none;
+  cursor: pointer;
+  /* background-color: #fb813e; */
+  padding: 10px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+}
+.log-btn:hover{
+  opacity: 0.7;
+}
+.log-btn i{
+  margin-right: 5px;
+}
+.fa-trash{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #2a8b1e;
+}
+
+.fa-trash:hover{
+  opacity: 0.7;
+}
+.days{
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.day-box{
+  height: 100px;
+  width: 150px;
+  margin: 5px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.daily-actions {
+  text-align: center;
+  padding: 15px;
+}
+p{
+  margin: 0%;
+}
+.circle-icon{
+  font-size: 24px;
+  margin: 5px 11px;
+  /* color: #0B5ED7; */
+  cursor: pointer;
+}
+.active{
+  color: #fb813e;;
+}
+.round{
+  border-radius: 50%;
+}
+.plus{
+  font-size: larger;
+  font-weight: 900;
+}
+.weekly-view{
+  background-color: black;
+  padding: 35px;
+  border-radius: 20px;
+  height: 85vh;
+}
+.habit-title{
+  text-align: center;
+  text-transform: capitalize;
+}
+
